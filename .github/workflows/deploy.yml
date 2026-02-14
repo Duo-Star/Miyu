@@ -2,7 +2,7 @@ name: Deploy to Vercel
 on:
   push:
     branches:
-      - main  # 当你向 main 分支推送代码时触发。如果你的主分支叫 master，请修改此处。
+      - master  # 当你向 main 分支推送代码时触发。如果你的主分支叫 master，请修改此处。
 
 jobs:
   build-and-deploy:
